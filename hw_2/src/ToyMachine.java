@@ -1,4 +1,6 @@
+import java.io.FileOutputStream;
 import java.io.FileWriter;
+import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -26,7 +28,7 @@ public class ToyMachine {
 
     public void writerToy(Toy toy) {
         try {
-            FileWriter fw = new FileWriter("WinList.txt", true);
+            OutputStreamWriter fw = new OutputStreamWriter(new FileOutputStream("WinList.txt", true), "UTF-8");
             fw.write(toy.toString() + "\n");
             fw.close();
         } catch (Exception e) {
