@@ -1,0 +1,7 @@
+ID: 5; Name: Слон
+ID: 1; Name: Конструктор
+ID: 5; Name: Слон
+ID: 3; Name: Кукла
+ID: 2; Name: Робот
+ID: 2; Name: Робот
+ID: 2; Name: Робот
